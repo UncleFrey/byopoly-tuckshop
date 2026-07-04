@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-parchment-100 text-charcoal font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+  ::selection {
+    @apply bg-amber-400 text-charcoal;
+  }
+  :focus-visible {
+    outline: 2px solid #E2A63B;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Signature clipped "workshop tag" corner — echoes the polytechnic's
+     technical-drawing / machined-plate visual language. */
+  .plate-clip {
+    clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);
+  }
+  .plate-clip-sm {
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%);
+  }
+  .blueprint-grid {
+    background-image:
+      linear-gradient(rgba(246,242,233,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(246,242,233,0.06) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .hex {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+  .scrollbar-hide {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
