@@ -24,7 +24,7 @@ export function Navbar() {
           </span>
           <span className="leading-tight">
             <span className="block font-display text-base font-bold text-parchment-100">
-              SKY SILHOUETTE Online Shop
+              SKY SILHOUETTE
             </span>
             <span className="hidden text-[11px] font-medium tracking-wide text-parchment-100/50 sm:block">
               Anchored in the real world of production
