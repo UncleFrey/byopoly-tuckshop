@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid gap-8 sm:grid-cols-3">
           <div>
             <h4 className="font-display text-sm font-bold uppercase tracking-wider text-parchment-100">
-              Bulawayo Poly Tuckshop
+              SKY SILHOUETTE Online Shop
             </h4>
             <p className="mt-2 text-sm">
               Cnr 12th Ave / Park Road, Suburbs, Bulawayo. Serving students and staff
@@ -19,7 +19,7 @@ export function Footer() {
             <ol className="mt-2 space-y-1 text-sm">
               <li>1. Browse the catalogue and add items to your cart</li>
               <li>2. Place your order to get a quotation</li>
-              <li>3. Collect and pay at the tuckshop counter</li>
+              <li>3. Collect and pay at the shop counter</li>
             </ol>
           </div>
           <div>
@@ -31,7 +31,7 @@ export function Footer() {
           </div>
         </div>
         <p className="mt-8 border-t border-parchment-100/10 pt-6 text-xs">
-          &copy; {new Date().getFullYear()} Bulawayo Polytechnic Tuckshop. Built for students, by students.
+          &copy; {new Date().getFullYear()} SKY SILHOUETTE Online Shop. Built by Bulawayo Poly Innovations Dept.
         </p>
       </div>
     </footer>

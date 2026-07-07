@@ -14,7 +14,7 @@ export function generateQuotationPdf(order: OrderWithItems) {
   doc.setTextColor('#FFFFFF');
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(18);
-  doc.text('BULAWAYO POLYTECHNIC TUCKSHOP', 40, 40);
+  doc.text('SKY SILHOUETTE Investments', 40, 40);
   doc.setFontSize(10);
   doc.setFont('helvetica', 'normal');
   doc.text('Cnr 12th Ave / Park Road, Bulawayo, Zimbabwe', 40, 58);
