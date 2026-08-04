@@ -34,7 +34,13 @@ export function HomePage() {
               Fresh Daily
             </span>
             <h1 className="font-display text-3xl font-bold leading-tight sm:text-5xl">
-              Fuel your workshop day.
+              <span className="block">QUALITY</span>
+              <span className="my-2 flex items-center gap-3 text-base font-semibold uppercase tracking-[0.32em] text-parchment-100/80 sm:text-lg">
+                <span className="h-px flex-1 bg-parchment-100/30" />
+                AFFORDABLE
+                <span className="h-px flex-1 bg-parchment-100/30" />
+              </span>
+              <span className="block">RELIABLE</span>
             </h1>
             <p className="mt-4 text-base text-parchment-100/70 sm:text-lg">
               Order ahead from the SKY SILHOUETTE Online shop — build your cart,

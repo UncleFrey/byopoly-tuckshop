@@ -15,10 +15,10 @@
     @apply font-display tracking-tight;
   }
   ::selection {
-    @apply bg-amber-400 text-charcoal;
+    @apply bg-blue-600 text-white;
   }
   :focus-visible {
-    outline: 2px solid #E2A63B;
+    outline: 2px solid #2563EB;
     outline-offset: 2px;
   }
 }
