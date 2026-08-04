@@ -6,7 +6,6 @@ import logo from '../assets/logo.png';
 
 export function generateQuotationPdf(order: OrderWithItems) {
   const doc = new jsPDF({ unit: 'pt', format: 'a4' });
-  const primary = '#2563EB';
   const dark = '#111111';
   const muted = '#64748B';
   const light = '#FFFFFF';

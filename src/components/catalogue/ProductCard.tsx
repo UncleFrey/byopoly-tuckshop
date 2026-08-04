@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Plus, UtensilsCrossed, X } from 'lucide-react';
 import type { Product } from '../../types';
