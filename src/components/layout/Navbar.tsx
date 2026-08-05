@@ -31,10 +31,10 @@ export function Navbar() {
           </div>
           <span className="leading-tight">
             <span className="block font-display text-base font-bold tracking-[0.16em] text-charcoal">
-              SKY SILHOUETTE
+              SKY SILHOUETTES
             </span>
             <span className="hidden text-[11px] font-semibold uppercase tracking-[0.24em] text-charcoal/70 sm:block">
-              Anchored in the real world of production
+              Quality | Affordable | Reliable
             </span>
           </span>
         </Link>

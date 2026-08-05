@@ -19,7 +19,7 @@ export function generateQuotationPdf(order: OrderWithItems) {
   doc.setTextColor(dark);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(18);
-  doc.text('SKY SILHOUETTE', 110, 40);
+  doc.text('SKY SILHOUETTES', 110, 40);
   doc.setFontSize(10);
   doc.setFont('helvetica', 'normal');
   doc.text('Cnr 12th Ave / Park Road, Bulawayo, Zimbabwe', 110, 58);

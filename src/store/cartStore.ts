@@ -76,6 +76,6 @@ export const useCartStore = create<CartState>()(
       totalPrice: () =>
         get().items.reduce((sum, i) => sum + i.quantity * i.price, 0),
     }),
-    { name: 'SKY SILHOUETTE Cart' }
+    { name: 'SKY SILHOUETTES Cart' }
   )
 );

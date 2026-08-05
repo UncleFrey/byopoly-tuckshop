@@ -32,7 +32,7 @@ export function LoginPage() {
       <div className="plate-clip bg-parchment-100 p-8 shadow-plate ring-1 ring-charcoal/5">
         <div className="mb-6 text-center">
           <div className="mx-auto flex h-24 w-24 items-center justify-center overflow-hidden rounded-md bg-white sm:h-28 sm:w-28">
-            <img src={logo} alt="Sky Silhouette" className="h-full w-full object-contain" />
+            <img src={logo} alt="Sky Silhouettes" className="h-full w-full object-contain" />
           </div>
           <h1 className="mt-2 font-display text-xl font-bold">Staff &amp; Admin Login</h1>
           <div className="mt-1 flex items-center justify-center gap-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-charcoal/70 sm:text-[11px]">

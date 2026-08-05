@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid gap-8 sm:grid-cols-3">
           <div>
             <h4 className="font-display text-sm font-bold uppercase tracking-wider text-parchment-100">
-              SKY SILHOUETTE Online Shop
+              SKY SILHOUETTES Sales Shop
             </h4>
             <p className="mt-2 text-sm">
               Cnr 12th Ave / Park Road, Suburbs, Bulawayo. Serving students and staff
@@ -31,7 +31,7 @@ export function Footer() {
           </div>
         </div>
         <p className="mt-8 border-t border-parchment-100/10 pt-6 text-xs">
-          &copy; {new Date().getFullYear()} SKY SILHOUETTE Online Shop. Built by Bulawayo Poly Innovations Dept.
+          &copy; {new Date().getFullYear()} SKY SILHOUETTES Sales Shop. Built by Young Innovators.
         </p>
       </div>
     </footer>

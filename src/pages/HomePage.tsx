@@ -43,7 +43,7 @@ export function HomePage() {
               <span className="block">RELIABLE</span>
             </h1>
             <p className="mt-4 text-base text-parchment-100/70 sm:text-lg">
-              Order ahead from the SKY SILHOUETTE Online shop — build your cart,
+              Order ahead from the SKY SILHOUETTES Sales Shop — build your cart,
               get an instant quotation, and collect at the counter. No queues, no
               guesswork.
             </p>
