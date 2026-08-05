@@ -34,7 +34,7 @@ export function Navbar() {
               SKY SILHOUETTES
             </span>
             <span className="hidden text-[11px] font-semibold uppercase tracking-[0.24em] text-charcoal/70 sm:block">
-              Quality | Affordable | Reliable
+              Quality | Affordable | Reliable 
             </span>
           </span>
         </Link>
