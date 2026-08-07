@@ -26,12 +26,12 @@ export function Footer() {
             <h4 className="font-display text-sm font-bold uppercase tracking-wider text-parchment-100">
               Hours
             </h4>
-            <p className="mt-2 text-sm">Mon – Fri: 07:00 – 17:00</p>
-            <p className="text-sm">Sat: 08:00 – 13:00</p>
+            <p className="mt-2 text-sm">Mon – Fri: from 08:00 – 17:00</p>
+            <p className="text-sm">Online Quotations: 24/7</p>
           </div>
         </div>
         <p className="mt-8 border-t border-parchment-100/10 pt-6 text-xs">
-          &copy; {new Date().getFullYear()} SKY SILHOUETTES Sales Shop. Built by Young Innovators.
+          &copy; {new Date().getFullYear()} SKY SILHOUETTES Sales Shop. Built by Young Innovators @ Bulawayo Polytechnic.
         </p>
       </div>
     </footer>
